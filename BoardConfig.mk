@@ -132,3 +132,6 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+# Fix Broken Double-Definition Errors
+BUILD_BROKEN_DUP_RULES := true
